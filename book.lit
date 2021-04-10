@@ -1,0 +1,8 @@
+@book
+@title Examples
+
+This is a simple example of a literate book.  <br />
+It contains all the examples:
+
+[Hello World in C++](cpp_hello.lit)
+[Hello World in Rust](rust_hello.lit)

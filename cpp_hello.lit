@@ -1,0 +1,33 @@
+@title Hello world in C++
+
+@s Introduction (on the example of C++)
+
+This is an example hello world C++ program.
+
+We can define codeblocks with `---`
+
+--- cpp_hello.cpp
+@{Includes}
+
+int main() {
+    @{Print a string}
+    return 0;
+}
+---
+
+**Now** we can define the `Includes` codeblock:
+
+--- Includes
+#include <iostream>
+using namespace std;
+---
+
+Finally, our program needs to print "Hello World!"
+
+--- Print a string
+cout << "Hello World from C++!";
+---
+
+Compile the program with `g++ -o cpp_hello.out cpp_hello.cpp` <br />
+Run the program with `./cpp_hello.out`<br />
+Nice to know: TeX equations like $E_{kin}=\frac{1}{2}mv^2$ are allowed.
